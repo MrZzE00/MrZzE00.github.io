@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en" data-color-mode="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NorbertJeff (MrZzE00)</title>
+<meta name="description" content="AI Ops · Building cognitive systems that remember, reason &amp; orchestrate">
+<link rel="icon" href="https://avatars.githubusercontent.com/u/190659180?v=4">
+<meta property="og:title" content="NorbertJeff (MrZzE00)">
+<meta property="og:description" content="AI Ops · Building cognitive systems that remember, reason &amp; orchestrate">
+<meta property="og:image" content="https://avatars.githubusercontent.com/u/190659180?v=4">
+<meta property="og:url" content="https://norbert.md/">
+<meta name="twitter:card" content="summary">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.9.0/github-markdown-dark.min.css">
+<style>
+  :root{
+    --bg:#0d1117; --bg-subtle:#161b22; --border:#30363d; --border-subtle:#21262d;
+    --fg:#e6edf3; --fg-muted:#8b949e; --accent:#4493f8;
+    --btn-bg:#21262d; --btn-border:#f0f6fc1a; --btn-hover:#30363d;
+    --sidebar:296px;
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0; background:var(--bg); color:var(--fg);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    font-size:14px; line-height:1.5;
+  }
+  a{color:var(--accent); text-decoration:none}
+  a:hover{text-decoration:underline}
+  img{max-width:100%}
+
+  .page{max-width:1280px; margin:0 auto; padding:24px 16px 64px}
+  .layout{display:grid; grid-template-columns:var(--sidebar) minmax(0,1fr); gap:24px; align-items:start}
+
+  /* ---------- sidebar ---------- */
+  .avatar-wrap{position:relative; margin-bottom:16px}
+  .avatar{width:100%; aspect-ratio:1; border-radius:50%; display:block; border:1px solid var(--border-subtle); background:var(--bg-subtle)}
+  .emoji-dot{
+    position:absolute; right:14px; bottom:14px; width:34px; height:34px; border-radius:50%;
+    background:var(--bg-subtle); border:1px solid var(--border); color:var(--fg-muted);
+    display:flex; align-items:center; justify-content:center; font-size:15px;
+  }
+  .fullname{font-size:24px; font-weight:600; line-height:1.25; margin:0}
+  .username{font-size:20px; font-weight:300; color:var(--fg-muted); line-height:1.25; margin:0 0 16px}
+  .btn{
+    display:block; width:100%; text-align:center; padding:5px 16px; border-radius:6px;
+    background:var(--btn-bg); border:1px solid var(--btn-border); color:var(--fg);
+    font-size:14px; font-weight:500; cursor:pointer;
+  }
+  .btn:hover{background:var(--btn-hover); text-decoration:none}
+  .rule{border:0; border-top:1px solid var(--border); margin:16px 0}
+  .counts{display:flex; align-items:center; gap:4px; color:var(--fg-muted); flex-wrap:wrap}
+  .counts a{color:var(--fg-muted)}
+  .counts strong{color:var(--fg); font-weight:600}
+  .counts svg{fill:var(--fg-muted); margin-right:4px; vertical-align:text-bottom}
+  .sec-title{font-size:16px; font-weight:600; margin:16px 0 8px}
+  .orgs{display:flex; flex-wrap:wrap; gap:4px}
+  .orgs img{width:32px; height:32px; border-radius:6px; display:block}
+
+  /* ---------- readme panel ---------- */
+  .panel{border:1px solid var(--border); border-radius:6px; background:var(--bg)}
+  .panel-head{
+    display:flex; align-items:center; justify-content:space-between;
+    padding:16px; font-size:12px; color:var(--fg-muted);
+  }
+  .panel-head .path{
+    font-family:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Liberation Mono",monospace;
+  }
+  .panel-head .path a{color:var(--fg-muted)}
+  .panel-head svg{fill:var(--fg-muted)}
+  .panel-body{padding:0 32px 32px}
+  .markdown-body{background:transparent !important; font-size:14px}
+  .markdown-body h1,.markdown-body h2{border-bottom:1px solid var(--border)}
+  .loading{padding:48px 0; text-align:center; color:var(--fg-muted)}
+
+  @media (max-width:1012px){
+    .layout{grid-template-columns:minmax(0,1fr); gap:16px}
+    .avatar{width:120px; height:120px; aspect-ratio:auto; margin:0 auto}
+    .avatar-wrap{display:flex; justify-content:center}
+    .emoji-dot{display:none}
+    .sidebar{text-align:center}
+    .orgs{justify-content:center}
+    .panel-body{padding:0 16px 24px}
+  }
+</style>
+</head>
+<body>
+<div class="page">
+  <div class="layout">
+
+    <aside class="sidebar">
+      <div class="avatar-wrap">
+        <img id="avatar" class="avatar" alt="MrZzE00"
+             src="https://avatars.githubusercontent.com/u/190659180?v=4">
+        <span class="emoji-dot">☺</span>
+      </div>
+      <h1 class="fullname" id="fullname">NorbertJeff</h1>
+      <p class="username" id="username">MrZzE00</p>
+      <a class="btn" href="https://github.com/MrZzE00" target="_blank" rel="noopener">Follow</a>
+      <hr class="rule">
+      <div class="counts">
+        <a href="https://github.com/MrZzE00?tab=followers" target="_blank" rel="noopener">
+          <svg height="16" width="16" viewBox="0 0 16 16" aria-hidden="true"><path d="M2 5.5a3.5 3.5 0 1 1 5.898 2.549 5.508 5.508 0 0 1 3.034 4.084.75.75 0 1 1-1.482.235 4 4 0 0 0-7.9 0 .75.75 0 0 1-1.482-.236A5.507 5.507 0 0 1 3.102 8.05 3.493 3.493 0 0 1 2 5.5ZM11 4a.75.75 0 0 1 0-1.5 3.5 3.5 0 0 1 1.767 6.521 5.503 5.503 0 0 1 3.108 4.132.75.75 0 0 1-1.481.232 4.001 4.001 0 0 0-2.938-3.278A.75.75 0 0 1 11 9.5a2 2 0 1 0 0-4Zm-5.5-.5a2 2 0 1 0 0 4 2 2 0 0 0 0-4Z"></path></svg><strong id="followers">5</strong>&nbsp;followers</a>
+        <span>·</span>
+        <a href="https://github.com/MrZzE00?tab=following" target="_blank" rel="noopener"><strong id="following">1</strong>&nbsp;following</a>
+      </div>
+      <div id="orgs-block">
+        <h2 class="sec-title">Organizations</h2>
+        <div class="orgs">
+          <a href="https://github.com/Zenika" target="_blank" rel="noopener" title="Zenika">
+            <img src="https://avatars.githubusercontent.com/u/630230?v=4" alt="Zenika"></a>
+        </div>
+      </div>
+    </aside>
+
+    <main class="panel">
+      <div class="panel-head">
+        <span class="path"><a href="https://github.com/MrZzE00/MrZzE00" target="_blank" rel="noopener">MrZzE00</a> / README.md</span>
+        <a href="https://github.com/MrZzE00/MrZzE00/edit/main/README.md" target="_blank" rel="noopener" aria-label="Edit README">
+          <svg height="16" width="16" viewBox="0 0 16 16" aria-hidden="true"><path d="M11.013 1.427a1.75 1.75 0 0 1 2.474 0l1.086 1.086a1.75 1.75 0 0 1 0 2.474l-8.61 8.61c-.21.21-.47.364-.756.445l-3.251.93a.75.75 0 0 1-.927-.928l.929-3.25c.081-.286.235-.547.445-.758l8.61-8.61Zm.176 4.823L9.75 4.81l-6.286 6.287a.253.253 0 0 0-.064.108l-.558 1.953 1.953-.558a.253.253 0 0 0 .108-.064Zm1.238-3.763a.25.25 0 0 0-.354 0L10.811 3.75l1.439 1.44 1.263-1.263a.25.25 0 0 0 0-.354Z"></path></svg>
+        </a>
+      </div>
+      <div class="panel-body">
+        <article id="readme" class="markdown-body">
+          <p class="loading">Loading README…</p>
+        </article>
+      </div>
+    </main>
+
+  </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/marked/18.0.13/lib/marked.umd.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/dompurify/3.4.15/purify.min.js"></script>
+<script>
+(function () {
+  var README = 'https://raw.githubusercontent.com/MrZzE00/MrZzE00/main/README.md';
+  var API    = 'https://api.github.com/users/MrZzE00';
+
+  // --- README (raw.githubusercontent = CDN, pas de quota d'API) ---
+  fetch(README, { cache: 'no-cache' })
+    .then(function (r) { if (!r.ok) throw new Error(r.status); return r.text(); })
+    .then(function (md) {
+      marked.setOptions({ gfm: true, breaks: false });
+      var html = marked.parse(md);
+      document.getElementById('readme').innerHTML =
+        DOMPurify.sanitize(html, { ADD_ATTR: ['align', 'target', 'rel'] });
+      document.querySelectorAll('#readme a[href^="http"]').forEach(function (a) {
+        a.target = '_blank'; a.rel = 'noopener';
+      });
+    })
+    .catch(function () {
+      document.getElementById('readme').innerHTML =
+        '<p class="loading">README unavailable — ' +
+        '<a href="https://github.com/MrZzE00">view it on GitHub</a>.</p>';
+    });
+
+  // --- compteurs live, silencieux en cas de quota API atteint ---
+  fetch(API)
+    .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
+    .then(function (u) {
+      if (u.avatar_url) document.getElementById('avatar').src = u.avatar_url;
+      if (u.name)       document.getElementById('fullname').textContent = u.name;
+      if (u.login)      document.getElementById('username').textContent = u.login;
+      if (typeof u.followers === 'number') document.getElementById('followers').textContent = u.followers;
+      if (typeof u.following === 'number') document.getElementById('following').textContent = u.following;
+    })
+    .catch(function () { /* valeurs figées dans le HTML conservées */ });
+})();
+</script>
+</body>
+</html>
